@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
         <title>Elegance - Creative HTML5 Template</title>
     <!--
@@ -30,7 +31,9 @@
     
         </head>
 <body>
+
     @yield('content')
+
     <script src="{{ asset ("js/jquery.js") }}"></script>
 
     <script src="{{ asset ("js/bootstrap.min.js") }}"></script>
@@ -46,5 +49,6 @@
     <script src="{{ asset ("js/form.js") }}"></script>
 
     <script src="{{ asset ("js/custom.js") }}"></script>
+
 </body>
 </html>
