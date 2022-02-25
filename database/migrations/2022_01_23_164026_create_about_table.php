@@ -17,11 +17,8 @@ class CreateAboutTable extends Migration
             $table->id();
             $table->string("title1");
             $table->string("title2");
-            $table->string("txt1");
+            $table->text("txt1");
             $table->string("img");
-            $table->string("icons");
-            $table->integer("iconNmb");
-            $table->string("iconTxt");
             $table->timestamps();
         });
     }
